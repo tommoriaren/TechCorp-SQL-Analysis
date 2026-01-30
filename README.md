@@ -17,6 +17,7 @@ Database TechCorp terdiri dari 6 tabel utama yang saling terintegrasi.
 5. **Tabel Karyawan (Employees)**: Menyimpan data karyawan yang bekerja di TechCorp.
 6. **Tabel Tiket Dukungan (SupportTickets)**: Menyimpan informasi tiket dukungan/masalah teknis yang diajukan pelanggan.
 
+<img width="375" height="393" alt="image" src="https://github.com/user-attachments/assets/ac7398be-a17b-4ed4-923e-bbe2d3f43313" />
 
 ## 📊 Business Questions (Key Analytics)
 Proyek ini menjawab tantangan bisnis melalui implementasi SQL. Seluruh query jawaban dapat diakses melalui link berikut:
