@@ -36,7 +36,17 @@ Berikut adalah cuplikan implementasi **CTE (Common Table Expression)** untuk men
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/7d4b6c03-a5b2-492d-add3-48666497e782" />
 
 ```sql
--- Menggunakan CTE untuk menghitung rata-rata harga tiap kategori
+-- Rata-rata harga produk per kategori
+WITH cte_avg_price AS (
+    SELECT 
+        category, 
+        AVG(price) AS rerata
+    FROM products
+    GROUP BY category
+)
+SELECT * FROM cte_avg_price;
+
+-- Kategori dengan rata-rata > $500
 WITH cte_avg_price AS (
     SELECT 
         category, 
