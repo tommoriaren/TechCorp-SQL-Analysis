@@ -33,6 +33,8 @@ Proyek ini menjawab tantangan bisnis melalui implementasi SQL. Seluruh query jaw
 Berikut adalah cuplikan implementasi **CTE (Common Table Expression)** untuk menganalisis kategori produk premium:
 
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/524334be-b60f-46c7-ba74-f558df452d8c" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/7d4b6c03-a5b2-492d-add3-48666497e782" />
+
 ```sql
 -- Rata-rata harga produk per kategori
 WITH cte_avg_price AS (
@@ -43,10 +45,7 @@ WITH cte_avg_price AS (
     GROUP BY category
 )
 SELECT * FROM cte_avg_price;
-```
 
-<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/7d4b6c03-a5b2-492d-add3-48666497e782" />
-```sql
 -- Kategori dengan rata-rata > $500
 WITH cte_avg_price AS (
     SELECT 
