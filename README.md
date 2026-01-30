@@ -32,8 +32,8 @@ Proyek ini menjawab tantangan bisnis melalui implementasi SQL. Seluruh query jaw
 ## 🔍 SQL Highlights: Market Positioning Analysis
 Berikut adalah cuplikan implementasi **CTE (Common Table Expression)** untuk menganalisis kategori produk premium:
 
-<img width="721" height="269" alt="image" src="https://github.com/user-attachments/assets/524334be-b60f-46c7-ba74-f558df452d8c" />
-<img width="700" height="247" alt="image" src="https://github.com/user-attachments/assets/7d4b6c03-a5b2-492d-add3-48666497e782" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/524334be-b60f-46c7-ba74-f558df452d8c" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/7d4b6c03-a5b2-492d-add3-48666497e782" />
 
 ```sql
 -- Menggunakan CTE untuk menghitung rata-rata harga tiap kategori
